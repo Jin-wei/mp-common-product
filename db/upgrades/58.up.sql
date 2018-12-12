@@ -1,0 +1,1 @@
+ALTER TABLE `prod_image` ADD COLUMN `file_name` VARCHAR(100)  DEFAULT NULL AFTER `img_type`;
